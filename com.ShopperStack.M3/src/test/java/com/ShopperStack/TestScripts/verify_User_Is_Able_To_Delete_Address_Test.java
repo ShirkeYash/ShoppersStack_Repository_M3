@@ -1,12 +1,14 @@
 package com.ShopperStack.TestScripts;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.Shoppersstack.genricUtility.baseTest;
+import com.Shoppersstack.genricUtility.listners;
 import com.Shopperstack.pom.myAddressesPage;
 import com.Shopperstack.pom.myProfilePage;
 import com.aventstack.extentreports.Status;
-
+@Listeners(listners.class)
 public class verify_User_Is_Able_To_Delete_Address_Test extends baseTest {
 	
 	@Test
